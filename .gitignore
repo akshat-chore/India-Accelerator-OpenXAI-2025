@@ -1,3 +1,19 @@
+# Ignore virtual environment
+.venv/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore uploads/outputs (generated at runtime)
+uploads/
+outputs/
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+
+
 # Dependencies
 **/node_modules/
 node_modules/
@@ -43,7 +59,7 @@ coverage/
 **/jspm_packages/
 jspm_packages/
 
-# Optional npm cache directory
+# Optional npm cacce directory
 **/.npm
 .npm
 
